@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- font awesome -->
+    <script src="js/all.js"></script>
+    <script type="text/javascript">
+        var replaceDigits = function() {
+            var map = ["&\#1776;","&\#1777;","&\#1778;","&\#1779;","&\#1780;","&\#1781;","&\#1782;","&\#1783;","&\#1784;","&\#1785;"]
+            document.body.innerHTML = document.body.innerHTML.replace(/\d(?=[^<>]*(<|$))/g, function($0) { return map[$0]});
+        }
+        window.onload = replaceDigits;
+        </script>
+    <title>فروشگاه ماشین</title>
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <div class="preloader d-flex justify-content-center align-items-center">
+        <img src="img/preloader.gif" alt="preloader">
+    </div>
+    <!--Navbar Element-->
+    <nav class="navbar navbar-expand-lg px3" id="navBar">
+
+
+        <a class="navbar-brand" href="#">
+            <img src="img/gearLogo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+            <span class="navbar-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
+
+        <div class="collapse  navbar-collapse" id="myNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">خانه</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">مهارت ها</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">فهرست</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">امکانات</a>
+                </li>
+            </ul>
+            <!--Social-->
+            <div class="nav-icons d-none d-lg-block">
+                <a class="nav-icon" href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a class="nav-icon" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="nav-icon" href="#">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+            <!-- Social end-->
+
+        </div>
+    </nav>
+
+    <!--Navbar Element end-->
+    <!--header-->
+
+    <header class="header" id="header">
+        <div class="container-fluid">
+            <div class="row height-max align-items-center">
+                <div class="col-md-9 ml-auto text-right pr-5 ">
+                    <h5 class="title-heading  d-inline-block p-2">جدیدترین ها</h5>
+                    <h2 class="my-2 title">پژو پارس سال</h2>
+                    <h3>1400</h3>
+                    <h6>شروع قیمت از:</h6>
+                    <h2> 130,000,000
+                        <span class="c-price__currency">تومان</span>
+                        <a href="#" class="title-icon d-inline-block mx-2">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--header end-->
+    <!--Skils-->
+    <section class="skilld py-5" id="skills">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col d-flex flex-wrap justify-content-center">
+                    <h1 class="font-weight-bold align-self-center mx-1">چرا انتخاب کنیم؟</h1>
+                    <h1 class="section-title-style mx-1">فروشنده ماشین</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 my-3 text-center">
+                    <a href="#" class="skills-icon rounded-circle  p-2">
+                        <i class="fas fa-car fa-fw"></i>
+                    </a>
+                    <h6 class="font-weight-bold my-3">همه برند ها</h6>
+                    <div class="skills-underline"></div>
+                    <p class="w-75 mx-auto text-muted text-justify">این شرکت مهم‌ترین شرکت خودروسازی ایرانی است، که
+                        انواع خودرو‌های
+                        سبک و سنگین را با همکاری شرکای خارجی یا به‌تن‌هایی مونتاژ می‌کند. ایران خودرو سالانه حدود ۶۰۰
+                        .هزار دستگاه خودرو تولید می‌کند
+                    </p>
+                </div>
+                <div class="col-sm-6 col-lg-3 my-3 text-center">
+                    <a href="#" class="skills-icon   rounded-circle p-2">
+                        <i class="fas fa-comments fa-fw"></i>
+                    </a>
+                    <h6 class="font-weight-bold my-3"> نظرات</h6>
+                    <div class="skills-underline"></div>
+                    <p class="w-75 mx-auto text-muted">این شرکت مهم‌ترین شرکت خودروسازی ایرانی است، که انواع خودرو‌های
+                        سبک و سنگین را با همکاری شرکای خارجی یا به‌تن‌هایی مونتاژ می‌کند. ایران خودرو سالانه حدود ۶۰۰
+                        هزار دستگاه خودرو تولید می‌کند.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-lg-3 my-3 text-center">
+                    <a href="#" class="skills-icon  rounded-circle p-2">
+                        <i class="fas fa-people-carry fa-fw"></i>
+                    </a>
+                    <h6 class="font-weight-bold my-3">مراقبت</h6>
+                    <div class="skills-underline"></div>
+                    <p class="w-75 mx-auto text-muted">این شرکت مهم‌ترین شرکت خودروسازی ایرانی است، که انواع خودرو‌های
+                        سبک و سنگین را با همکاری شرکای خارجی یا به‌تن‌هایی مونتاژ می‌کند. ایران خودرو سالانه حدود ۶۰۰
+                        هزار دستگاه خودرو تولید می‌کند.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-lg-3 my-3 text-center">
+                    <a href="#" class="skills-icon  rounded-circle p-2">
+                        <i class="fas fa-wallet fa-fw"></i>
+                    </a>
+                    <h6 class="font-weight-bold my-3"> مقرون به صرفه</h6>
+                    <div class="skills-underline"></div>
+                    <p class="w-75 mx-auto text-muted">این شرکت مهم‌ترین شرکت خودروسازی ایرانی است، که انواع خودرو‌های
+                        سبک و سنگین را با همکاری شرکای خارجی یا به‌تن‌هایی مونتاژ می‌کند. ایران خودرو سالانه حدود ۶۰۰
+                        هزار دستگاه خودرو تولید می‌کند.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end Skils-->
+    <!--inventori-->
+    <section class="inventori py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col d-flex flex-wrap justify-content-center">
+                    <h1 class="font-weight-bold align-self-center mx-1"> دیگر</h1>
+                    <h1 class="section-title-style mx-1">مشخصات</h1>
+                </div>
+            </div>
+            <div class="row mb-5">
+
+                <div class="col-10 mx-auto col-md-12 d-flex justify-content-end">
+                    <button class="btn btn-outline-secondary mx-1">همه ماشین ها</button>
+                    <button class="btn btn-outline-secondary mx-1">پژو</button>
+                    <button class="btn btn-outline-secondary mx-1"> ال نود</button>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <!--car 1-->
+                    <div class="card car-card">
+                        <img src="img/car1.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت سمند</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">305,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>اتوماتیک</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 1-->
+                <!--car 2-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/car2.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت پژو</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">300,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>اتوماتیک</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 2-->
+                <!--car 3-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/car3.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت پژو</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">1,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>اتوماتیک</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car3-->
+                <!--car 4-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/car4.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت پژو</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">280,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>اتوماتیک</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 4-->
+                <!--car 5-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/car5.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت پژو</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">270,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>اتوماتیک</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 5-->
+                <!--car 6-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/car6.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت پژو</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">300,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>اتوماتیک</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 6-->
+                <!--car 7-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/car7.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت پژو</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">190,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>اتوماتیک</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 7-->
+                <!--car 8-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/car8.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت مگان</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">200,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>اتوماتیک</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 8-->
+                <!--car 9-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/car9.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت پژو</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">220,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>دنده ایی</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 9-->
+                <!--car 10-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/rana.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت ایران خودرو</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">370,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>اتوماتیک</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 10-->
+                <!--car 11-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/samand.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت ایران خودرو</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">320,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>دنده ایی</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>50</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 11-->
+                <!--car 12-->
+                <div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+                    <div class="card car-card">
+                        <img src="img/neysan.jpg" class="card-img card-img-top car-img" alt="">
+                        <!--card body-->
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text ">
+                                    <h6 class="font-weight-bold">شرکت ایران خودرو</h6>
+                                    <h6>1399</h6>
+                                </div>
+                                <h5 class="car-value align-self-center py-2 px-3">
+                                    <span class="car-price">400,000,000</span>
+                                    <span class="c-price__currency">تومان</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <p><span class="px-2"><i class="fa fa-car"></i></span>سدان</p>
+                            <p><span class="px-2"><i class="fa fa-cogs"></i></span>دنده ایی</p>
+                            <p><span class="px-2"><i class="fa fa-gas-pump"></i></span>60</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end car 12-->
+            </div>
+        </div>
+
+
+    </section>
+    <!--end inventori-->
+    <!--questions-->
+    <div class="section question" id="question">
+        <div class="container">
+            <div class="row">
+                <!--first question-->
+                <div class="col-10 mx-auto my-2 d-flex col-md-6 justify-content-between question-gray p-4">
+
+                    <a href="#" class="question-icon mr-3">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <div class="question-text">
+                        <h4 class="question-title font-weight-bold">آیا شما به دنبال یک ماشین هستید؟</h4>
+                        <p class="question-info">
+                            این شرکت مهم‌ترین شرکت خودروسازی ایرانی است، که
+                            انواع خودرو‌های
+                            سبک و سنگین را با همکاری شرکای خارجی یا به‌تن‌هایی مونتاژ می‌کند.
+                        </p>
+                    </div>
+                </div>
+                <!--end first question-->
+                <!--second question-->
+                <div class="col-10 mx-auto my-2 d-flex col-md-6 justify-content-between question-yellow p-4">
+
+                    <a href="#" class="question-icon mr-3">
+                        <i class="fas fa-dollar-sign fa-fw"></i>
+                    </a>
+                    <div class="question-text">
+                        <h4 class="question-title font-weight-bold">آیا شما ماشین باکیفیت اما ارزان میخواهید؟</h4>
+                        <p class="question-info">
+                            این شرکت میتواند انواع خودرو‌های با کیفیت را با کمترین قیمت و مقرون به صرفه به شما بفروشد از ما خرید کنید تا صاحب ماشین خوب شوید
+                        </p>
+                    </div>
+                </div>
+                <!--end secon question-->
+            </div>
+        </div>
+
+    </div>
+    <!--end question-->
+    <!-- Featured -->
+    <section class="feature py-5" id="feature">
+
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col d-flex flex-wrap justify-content-center">
+                    <h1 class="font-weight-bold align-self-center mx-1">  ماشین های  </h1>
+                    <h1 class="section-title-style mx-1">ویژه</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!--feature-text -->
+                <div class="col-10 col-lg-6  mx-auto feature-info my-3">
+                    <!--single item-->
+                    <div class="feature-text d-flex align-self-baseline flex-wrap my-3 p-2">
+                        <span class="feature-icon mr-2">
+                            <i class="fas fa-car"></i>
+                        </span>
+                        <h5 class="font-weight-bold mx-1">پژو پارس</h5>
+                        <h5 class="mx-1">مدل جدید</h5>
+                    </div>
+                    <!--end item-->
+                    <!--single item-->
+                    <div class="feature-text d-flex align-self-baseline flex-wrap my-3 p-2">
+                        <span class="feature-icon mr-2">
+                            <i class="fas fa-car"></i>
+                        </span>
+                        <h5 class="font-weight-bold mx-1">پژو 405</h5>
+                        <h5 class="mx-1">مدل جدید</h5>
+                    </div>
+                    <!--end item-->
+                    <!--single item-->
+                    <div class="feature-text d-flex align-self-baseline flex-wrap my-3 p-2">
+                        <span class="feature-icon mr-2">
+                            <i class="fas fa-car"></i>
+                        </span>
+                        <h5 class="font-weight-bold mx-1">ال 90 </h5>
+                        <h5 class="mx-1">مدل جدید</h5>
+                    </div>
+                    <!--end item-->
+                    <!--single item-->
+                    <div class="feature-text d-flex align-self-baseline flex-wrap my-3 p-2">
+                        <span class="feature-icon mr-2">
+                            <i class="fas fa-car"></i>
+                        </span>
+                        <h5 class="font-weight-bold mx-1">پراید</h5>
+                        <h5 class="mx-1">مدل جدید</h5>
+                    </div>
+                    <!--end item-->
+                    <!--single item-->
+                    <div class="feature-text d-flex align-self-baseline flex-wrap my-3 p-2">
+                        <span class="feature-icon mr-2">
+                            <i class="fas fa-car"></i>
+                        </span>
+                        <h5 class="font-weight-bold mx-1">نیسان</h5>
+                        <h5 class="mx-1">مدل جدید</h5>
+                    </div>
+                    <!--end item-->
+                    <!--end feature text-->
+
+                </div>
+                <!--start feature img-->
+                <div class="col-10 mx-auto col-lg-6 featured-img my-3 align-self-center">
+                    <div class="img-container">
+                        <img src="img/car2.jpg" alt="" class="img-fluid featured-photo">
+                        <a href="#" class="featured-link">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end feature-->
+    <!--start gallery-->
+    <section class="gallery py-5" id="gallery">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col d-flex flex-wrap justify-content-center">
+                    <h1 class="font-weight-bold align-self-center mx-1"> گالری</h1>
+                    <h1 class="section-title-style mx-1">ماشین</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="gallery-item">
+                        <img src="img/car-american-4.jpeg" alt="car" class="img-fluid gallery-img">
+                    </div>
+                </div>
+                <div class="col-sm-6 d-flex justify-content-between flex-column">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="gallery-item">
+                                <img src="img/car2.jpg" alt="car" class="img-fluid gallery-img">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="gallery-item">
+                                <img src="img/car3.jpg" alt="car" class="img-fluid gallery-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="gallery-item">
+                                <img src="img/samand.jpg" alt="car" class="img-fluid gallery-img">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="gallery-item">
+                                <img src="img/rana.jpg" alt="car" class="img-fluid gallery-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--end gallery-->
+    <!--start contact-->
+    <section class="contact py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-md-6 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control p-3 contact-input " 
+                                placeholder="ایمیل خود را وارد کنید">
+                            <button class="btn btn-outline-secondary btn-block contact-btn" type="submit">تایید</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--end contact-->
+    <!--start video-->
+   <!--Services Section-->
+  <div class="container">
+    <!--Section Title-->
+    <div class="row my-5">
+      <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+        <h1 class="font-weight-bold align-self-center mx-1">دیگر</h1>
+        <h1 class="section-title-special mx-1">سرویس ها</h1>
+      </div>
+    </div>
+    <!-- End Section Title-->
+  </div>
+  <section class="services py-5 d-flex align-items-center">
+    <!--Video Container-->
+    <div class="video-container">
+      <video class="video-item" autoplay loop muted>
+        <source src="video/videoBcg.mp4" type="video/mp4">
+        Your Browser does not support video tag
+      </video>
+      </video>
+    </div>
+    <!--End Video Container-->
+    <!--Video overlay-->
+    <div class="video-overlay"></div>
+    <!--End Video overlay-->
+    <!--Service Content-->
+    <div class="container py-5">
+      <div class="row my-3">
+        <!--Col-->
+        <div class="col-8 mx-auto col-lg-6 col-md-4 my-3">
+          <div class="service py-5 pl-4">
+            <span class="service-icon">
+              <i class="fas fa-cogs"></i>
+            </span>
+            <h6 class="text-capitalize service-title">تمیرات</h6>
+            <h5 class="text-uppercase font-weight-bold">آسان</h5>
+          </div>
+        </div>
+        <!--End Col-->
+
+        <!--Col-->
+        <div class="col-8 mx-auto col-lg-6 col-md-4 my-3">
+          <div class="service py-5 pl-4">
+            <span class="service-icon">
+              <i class="fas fa-car-battery"></i>
+            </span>
+            <h6 class="text-capitalize service-title">باتری</h6>
+            <h5 class="text-uppercase font-weight-bold">قابلیت جایگزینی </h5>
+          </div>
+        </div>
+        <!--End Col-->
+
+        <!--Col-->
+        <div class="col-8 mx-auto col-lg-6 col-md-4 my-3">
+          <div class="service py-5 pl-4">
+            <span class="service-icon">
+              <i class="fas fa-car-crash"></i>
+            </span>
+            <h6 class="text-capitalize service-title">تصادفات</h6>
+            <h5 class="text-uppercase font-weight-bold">پشتیبانی</h5>
+          </div>
+        </div>
+        <!--End Col-->
+      </div>
+
+    </div>
+  </section>
+  <!--End Services Section-->
+   
+    <!--start card-customer-->
+    <section class="card-customer my-3 py-5">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col d-flex flex-wrap justify-content-center">
+                    <h1 class="font-weight-bold align-self-center mx-1"> نظرات </h1>
+                    <h1 class="section-title-style mx-1"> کاربران </h1>
+                </div>
+                <div class="row">
+                    <!--single card-->
+                    <div class="col-10 col-md-6 col-lg-4 my-5 mx-auto">
+                        <div class="card ">
+                            <img src="img/car6.jpg" alt="" class="card-img-top card-image">
+                            <div class="card-body text-center">
+                                <img src="img/customer-1.jpg" alt="" class="rounded-circle card-image-customer">
+                                <div class="card-title">
+                                <h5 class="customer-name">محسن کیایی</h5>
+                                </div>
+                                <h6 class="customer-job">
+                                    مکانیک
+                                </h6>
+                                <p class="text-center customer-quote">
+                                 به نام خدا بنده محسن کیایی هستم مهندس مکانیک خوشحالم از خرید این خودروی زیبا
+                                </p>
+                                <span class="card-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end single card-->
+                    <!--single card-->
+                    <div class="col-10 col-md-6 col-lg-4 my-5 mx-auto">
+                        <div class="card ">
+                            <img src="img/car2.jpg" alt="" class="card-img-top card-image">
+                            <div class="card-body text-center">
+                                <img src="img/customer-2.jpg" alt="" class="rounded-circle card-image-customer">
+                                <div class="card-title">
+                                <h5 class="customer-name"> علی علوی  </h5>
+                                </div>
+                                <h6 class="customer-job">
+                                    برق
+                                </h6>
+                                <p class="text-center customer-quote">
+                                 به نام خدا بنده علی علوی هستم مهندس برق خوشحالم از خرید این خودروی زیبا
+                                </p>
+                                <span class="card-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end single card-->
+                    <!--single card-->
+                    <div class="col-10 col-md-6 col-lg-4 my-5 mx-auto">
+                        <div class="card ">
+                            <img src="img/car3.jpg" alt="" class="card-img-top card-image">
+                            <div class="card-body text-center">
+                                <img src="img/customer-3.jpg" alt="" class="rounded-circle card-image-customer">
+                                <div class="card-title">
+                                <h5 class="customer-name">بهروز عباسی</h5>
+                                </div>
+                                <h6 class="customer-job">
+                                    عمران
+                                </h6>
+                                <p class="text-center customer-quote">
+                                 به نام خدا بنده بهروز عباسی هستم مهندس عمران خوشحالم از خرید این خودروی زیبا
+                                </p>
+                                <span class="card-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end single card-->
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--end card-customer-->
+    <footer class="py-5 footer">
+        <div class="d-flex footer-section justify-content-around">
+            <a class="footer-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a class="footer-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a class="footer-icon">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a class="footer-icon">
+                <i class="fab fa-google-plus"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
